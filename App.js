@@ -11,7 +11,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.text}>Hello World!</Text>
       <StatusBar style="auto" />
-      <TextInput style={{height: 40, borderColor: 'black', borderWidth: 1}} onChangeText={setText} value={text} placeholder="Enter text here" />
+      <TextInput style={{height: 40, borderColor: 'black', borderWidth: 1, width:150}} onChangeText={setText} value={text} placeholder="Enter text here" />
       <Button  onPress={handlePress} title="Click Me!" />
     </View>
   );
